@@ -1,0 +1,16 @@
+
+public class Conta {
+	
+	String agencia;
+	int numeroConta;
+	double saldo;
+
+	void tranferir() {
+		
+	}
+	
+	void pagar() {
+		
+	}
+	
+}

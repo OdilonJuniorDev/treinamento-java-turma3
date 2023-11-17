@@ -1,0 +1,19 @@
+package br.com.treinamento;
+
+public class EnhancedFor {
+
+	public static void main(String[] args) {
+		
+		int[] array = {10,20,30,40};
+		
+		int contador = 0;
+		System.out.println("Lista de números");
+		
+		for (int i: array){
+			System.out.println(i);
+			contador ++;
+		}
+		System.err.println("quantidade de registros:" + contador); 
+	}
+
+}
